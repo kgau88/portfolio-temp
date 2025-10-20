@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #8C1515; /* Cardinal Red */
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3c0606; /* slightly darker for navbar */
+  padding: 1rem 2rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+}
+
+.nav-links a::after {
+  content: '';
+  display: block;
+  height: 2px;
+  background: white;
+  transition: width 0.3s;
+  width: 0;
+}
+
+.nav-links a:hover::after, .nav-links .active::after {
+  width: 100%;
+}
+
+.home-page {
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
+.home-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.home-page h2 {
+  font-size: 1.75rem;
+  margin-top: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.page {
+  padding: 4rem 2rem;
+}
+
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 1.5rem;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #6f0f0f;
+  margin-top: 2rem;
+}
+
+.bouncy-name {
+  text-decoration: underline;
+  display: inline-block;
+  animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
