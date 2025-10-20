@@ -1,7 +1,7 @@
-🎨 Portfolio Website
-A personal portfolio website built with Vite, React, and TypeScript. Showcases projects, experience, and skills.
+*work in progress*
+Portfolio Website: A personal portfolio website built with Vite, React, and TypeScript. Showcases projects, experience, and skills.
 
-✨ Features
+Features
 - 🏠 Dynamic Home Page: Rotating adjectives about yourself and a “Learn More” button that scrolls to About Me.
 - 👤 About Me Section: Displays personal info and an image.
 - 💻 Projects Page: Highlight your projects with responsive cards and GitHub links.
@@ -9,31 +9,22 @@ A personal portfolio website built with Vite, React, and TypeScript. Showcases p
 - Responsive Design: Works well on desktop, tablet, and mobile.
 - Modern Aesthetic: Red/dark red theme, hover effects, and clean typography.
 
-🛠 Tech Stack
+Tech Stack
 - React – UI library
 - TypeScript – Strongly typed JavaScript
 - Vite – Fast build tool
 - CSS / Inline Styles – For layout, responsive design, and hover effects
 
-🚀 Installation
+Installation:
 Clone the repo and install dependencies:
 git clone https://github.com/yourusername/portfolio.git
 cd portfolio
 npm install
 
-
 Start the development server:
 npm run dev
 
-
 Open http://localhost:5173 in your browser to view your portfolio.
-
-📂 Folder Structure
-src/
- ├─ assets/       # Images and media
- ├─ pages/        # Home, Projects, Experience pages
- ├─ App.tsx       # Main app component
- └─ main.tsx      # React entry point
 
 🎨 Customization
 - Replace [Your Name] in Home.tsx with your name.
@@ -41,12 +32,4 @@ src/
 - Update projects and experiences arrays with your real projects and work.
 - Customize colors or typography in inline styles or add a CSS file.
 
-🌐 Deployment
-You can deploy your portfolio using Netlify, Vercel, GitHub Pages, or any static hosting service:
-npm run build
-This generates a production-ready dist/ folder.
-
-✍️ Note from the Author
-Hi! I designed this e-portfolio website template for the Women in Computer Science club, as we are teaching web development to fellow high school students and want to provide a space for students to publish their work and share more about themselves with their peers as they prepare for university.
-
-It is an intuitive and minimalistic blueprint for students, but with easy ways to personalize it. The template includes comments throughout to guide students along the way. Enjoy! - kagu
+Note from the Author: Hi! I designed this e-portfolio website template for the Women in Computer Science club, as we are teaching web development to fellow high school students and want to provide a space for students to publish their work and share more about themselves with their peers as they prepare for university. It is an intuitive and minimalistic blueprint for students, but with easy ways to personalize it. The template includes comments throughout to guide students along the way. Enjoy! - kagu
